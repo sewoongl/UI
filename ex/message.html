@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimum-scale=1.0" />
+	<title> Title </title>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	
+	<link rel="shortcut icon" href="img/icon_goodee.png">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/dls.css">
+	<link rel="stylesheet" type="text/css" href="css/desktop.css">
+	<link rel="stylesheet" type="text/css" href="css/message.css">
+	<link rel="stylesheet" type="text/css" media = "only screen and (max-width: 1259px)" href="css/laptop.css">
+	<link rel="stylesheet" type="text/css" media = "only screen and (max-width: 768px)" href="css/tablet.css">
+	<link rel="stylesheet" type="text/css" media = "only screen and (max-width: 425px)" href="css/mobile.css">
+	<script src="lib/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+	<!--글쓰기 버튼 ajax-->
+	<script>
+        /*
+            $(document).ready(function(){
+                if(localStorage.getItem("url") == null){
+                    $("body").load("write.html");
+                }else{
+                    $("body").load(localStorage.getItem("url"));
+                }
+             $("#writebtn").click(function(e){
+                 $("body").load(e.target.value);
+                 localStorage.setItem("url", e.target.value);
+             });
+        });
+        
+        */
+    </script>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="left">
+            
+            <div id="img-box">
+                <img src="img/profile.jpg">
+            </div>
+            
+            <div class="left-1">
+                <div>
+                    <a href="index2.html#right-1" class="sh">
+                        <h3 class="pageMove">portfolio</h3>
+                    </a>
+                </div>
+                
+                <div>
+                    <a href="index2.html#right-3" class="sh">
+                        <h3 class="pageMove">about</h3>
+                    </a>
+                </div>
+                
+                <div>
+                    <a href="index2.html#right-4" class="sh">
+                        <h3 class="pageMove">contact</h3>
+                    </a>
+                </div>
+                <div>
+                    <a href="myinfo.html" class="sh">
+                        <h3 class="pageMove">my info</h3>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- right area -->
+        <div id="right">
+           
+           
+            <!--  right-1 start -->
+            <div id="right-1">
+                <hgroup id="hp">
+                   <div id="hp-left">
+                        <div id="leftMenu">
+                            <img src="./img/baseline-dehaze-24px.svg">
+                        </div>
+                    </div>
+                    <div id="hp-right">
+                        <img src="./img/profile-2.jpg">
+                    </div>
+                </hgroup>
+            </div>
+            <!--  right-1 end  -->
+            
+            
+            <!-- message box -->
+            <div class="container">
+                <h2>쪽지함</h2>
+                <p></p>            
+                <table class="msg-table">
+                    <thead>
+                        <tr>
+                            <th>일시</th>
+                            <th>이름</th>
+                            <th>이메일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2018-05-22</td>
+                            <td>심현섭</td>
+                            <td>dukduk@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2018-05-20</td>
+                            <td>이정원</td>
+                            <td>dukduk@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2018-04-02</td>
+                            <td>이세웅</td>
+                            <td>blizard@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2018-04-20</td>
+                            <td>김빛날</td>
+                            <td>xmas@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2018-03-20</td>
+                            <td>김밝을</td>
+                            <td>tree@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2018-03-02</td>
+                            <td>김달빛</td>
+                            <td>moonmoon@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2017-01-19</td>
+                            <td>오다율</td>
+                            <td>realmadrid@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2017-01-03</td>
+                            <td>이비자</td>
+                            <td>2busy@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2016-12-19</td>
+                            <td>이모태</td>
+                            <td>mote@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2016-12-10</td>
+                            <td>한가람</td>
+                            <td>garam@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2016-11-04</td>
+                            <td>윤빛람</td>
+                            <td>light@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2016-10-09</td>
+                            <td>박경석</td>
+                            <td>yaa@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>2016-10-30</td>
+                            <td>임요환</td>
+                            <td>orolsyeo@example.com</td>
+                        </tr>
+                      
+                    </tbody>
+                </table>
+                
+                <div class="paging-box">
+                    <ul class="pagination">
+                        <li><a href="#">&lt;</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&gt;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ---------------------------------------------- -->
+
+        <!-- 레이어 -->
+        <div id="layer"></div>
+        
+        <!-- 쪽지내용 -->
+        <div class="message-contents">
+            <form>
+                <div class="pw-box-text">
+                    <p class="btn-50" id="msg-date"></p>
+                    <p class="btn-50" id="msg-writer"></p>
+                </div>
+                <div class="input-group join-box-input">
+                    <p id="msg-email"></p>
+                    
+                    <textarea rows="5" id="msg-text">하이루 안녕하십니까!
+사이트 잘만드셨네요~ 자주 놀러올게요!!</textarea>
+                </div>
+                <div class="join-btn-box">
+                <input type="button" id="change-confirm" class="btn btn-info btn-50" value="확인">
+                <input type="button" id="submit-change" class="btn btn-danger btn-50" value="삭제">
+                
+                </div>
+            </form>
+        </div>
+        
+        <div id="left-copy" class="ani">
+            <div class="left-1">
+                <div>
+                    <a href="index2.html#right-1">
+                        <h3 class="pageMove">portfolio</h3>
+                    </a>
+                </div>
+                
+                <div>
+                    <a href="index2.html#right-3" >
+                        <h3 class="pageMove">about</h3>
+                    </a>
+                </div>
+                
+                <div>
+                    <a href="index2.html#right-4" >
+                        <h3 class="pageMove">contact</h3>
+                    </a>
+                </div>
+                
+                <div>
+                    <a href="myinfo.html">
+                        <h3 class="pageMove">my info</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <footer>
+            <div>
+                alright reserved @DLS alright reserved<br>
+                made by hyunsub, sewoong, jeongwon
+            </div>
+        </footer>
+    </div>
+    
+<script src="js/main.js"></script>
+<script>
+    $("#leave-member").on("click", function(){
+        alert("잘가라 즐거웠다.");
+        location.href="index.html";
+    });
+    
+    $("#layer").on("click", function(){
+        layerOut();
+    });
+    
+    $("#change-btn").on("click", function(){
+        $("#layer").show();
+        $(".pw-change-box").show();
+    });
+    
+    $("#submit_change").on("click", function(){
+        alert("변경되었습니다.");
+        layerOut();
+    });
+    
+    $("#message-box").on("click", function(){
+        location.href = '';
+    });
+    
+    $("#membership").on("click", function(){
+        location.href = '';
+    });
+    
+    $("tbody > tr").on("click",function(){
+       /*alert($(this).text());*/
+        var a = $(this).find("td");
+        
+        var date = $(a[0]).text();
+        var writer = $(a[1]).text();
+        var email = $(a[2]).text();
+        
+        $("#msg-date").text(date);
+        $("#msg-writer").text(writer);
+        $("#msg-email").text(email);
+        
+        
+        $(".message-contents").show();
+        $("#layer").show();
+        
+    });
+    
+    $("#change-confirm").on("click", function(){
+        layerOut();
+    });
+    
+    $("#submit-change").on('click', function(){
+        layerOut();
+    });
+</script>
+
+</body>
+</html>
